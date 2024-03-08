@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: black;
+	user-select: none;
+  }
+  
+  h1,
+  h2 {
+	position: absolute;
+	font-family: "Inter";
+  }
+  
+  h1 {
+	color: white;
+	font-size: 6rem;
+  }
+  
+  h2 {
+	color: rgba(255, 255, 255, 0.1);
+	font-size: 12rem;
+	text-transform: uppercase;
+  }
+  
